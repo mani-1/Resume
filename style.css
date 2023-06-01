@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #ffff 0%, #ffff 100%);
+  padding: 20px 50px 20px 50px;
+}
+
+
+/********************* Profile section ******************************/
+
+.profile__header {
+  position: relative;
+  margin-top: 2rem;
+}
+
+
+.title {
+  position: relative;
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+ h5.title {
+  width: 200px;
+  letter-spacing: .3px;
+}
+
+h5.title::after{
+  transform:skew(3deg, 3deg);
+}
+
+
+.title::after {
+  bottom:0;
+  left:0;
+  right: 0;
+  top: 0;
+  transform:skew(1deg, 1deg);
+  z-index:-1;
+    position:absolute;
+    content: '';
+    color:black;
+   background-color: orange;
+}
+
+.profile__image {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  transform: scale(1.5);
+  border-radius: 50%;
+}
+
+.profile__details {
+  padding: 1rem;
+  font-size: .9rem;
+}
+
+
+.profile__details p {
+  margin: 3px;
+}
+
+
+/* *********************** About Me ************************** */
+.about__me p{
+  font-size: 14px;
+  padding: 1rem;
+}
+
+.about__me strong {
+  color: rgb(26, 108, 250);
+}
+
+/* ****************** Work Details ******************** */
+
+.expreience {
+  padding: 1rem;
+}
+
+.expreience * {
+  margin: 3px 0px;
+}
+
+.expreience p {
+   font-style: italic;
+   font-size: 13px;
+}
+
+.expreience li {
+  margin-left: 2rem;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.project {
+  margin: 6px 0px;
+}
+
+.project-title {
+  text-decoration: underline;
+}
+
+.cognizant {
+  margin-top: 10px;
+}
+
+.tech-stack span{
+  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.contact__details {
+  padding-left:1rem;
+  font-size: 14px;
+  margin-top: 10px;
+}
