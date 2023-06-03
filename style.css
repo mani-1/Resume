@@ -72,7 +72,7 @@ h5.title::after{
 
 .profile__details {
   padding: 1rem;
-  font-size: .9rem;
+  font-size: 1rem;
   display: flex;
 }
 
@@ -95,14 +95,14 @@ h5.title::after{
 
 
 .education__details p {
-  font-size: 14px;
+  font-size: 1rem;
   padding: 1rem;
 }
 
 
 /* *********************** About Me ************************** */
 .about__me p{
-  font-size: 14px;
+  font-size: 1rem;
   padding: 1rem;
 }
 
@@ -116,18 +116,22 @@ h5.title::after{
   padding: 1rem;
 }
 
+.expreience h5 {
+  font-size: 1rem;
+}
+
 .expreience * {
   margin: 3px 0px;
 }
 
 .expreience p {
    font-style: italic;
-   font-size: 13px;
+   font-size: 1rem;
 }
 
 .expreience li {
   margin-left: 2rem;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 100;
 }
 
@@ -161,11 +165,11 @@ h5.title::after{
 }
 
 .rewards_details {
-  padding: 10px 2rem;
+  padding: 10px 1rem;
   margin: 1rem 1rem;
   display: flex;
   justify-content: space-around;
-  font-size: .9rem;
+  font-size: 1rem;
 }
 
 .rewards_details i {
