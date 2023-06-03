@@ -8,8 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fa673c9433.js" crossorigin="anonymous"></script>
   <title>My Resume</title>
 </head>
 <body>
@@ -23,19 +22,36 @@
         <img src="/images/mypic.webp" alt="" class="profile__image">
       </div>
       <div class="profile__details">
-        <p>
-          Phone:
-          <strong>+91 9940147538 </strong>
-        </p>
-        <p>
-          Email: 
-          <strong> manikandan.tms88@gmail.com </strong>
-        </p>
+        <div class="phone">
+          <p>
+            Phone:
+            <strong> +91 9940147538 </strong>
+          </p>
+          <p>
+            Email: 
+            <strong> manikandan.tms88@gmail.com </strong>
+          </p>
+        </div>
+        <div>
+          <p>LinkedIn:
+            <strong>https://www.linkedin.com/in/mani-t-448141203/</strong>
+          </p>
+          <p>GitHub:
+            <strong>https://github.com/mani-1</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Education -->
+    <section id="education">
+      <h5 class="title education__title"> <i class="fa-solid fa-graduation-cap" style="color: orange;"></i> Education</h5>
+      <div class="education__details">
+        <p>I completed my Bachelor of Engineering at SRM Valliammai Engineering College in 2019, achieving a CGPA of 70%</p>
       </div>
     </section>
     <!-- about me -->
     <section class="about__me">
-      <h5 class="title">About Me</h5>
+      <h5 class="title"> <i class="fa-solid fa-user" style="color: orange;"></i>About Me</h5>
       <p>
         Passionate front-end developer with 3 years of experience in creating visually appealing and user-friendly websites with a strong foundation in <strong>HTML, CSS, and JavaScript.</strong>
         Additionally, I have experience working with various front-end frameworks and libraries, such as <strong>Vue Js and Angular Js.</strong>
@@ -43,41 +59,45 @@
     </section>
     <!-- work detail -->
     <section class="work__details">
-      <h5 class="title">Works So Far</h5>
+      <h5 class="title"> <i class="fa-solid fa-laptop-code" style="color: orange;"></i>Works So Far</h5>
       <div class="expreience">
         <div class="agilysys">
             <h5><strong>Agilysys Inc </strong></h5>
             <h5><strong>Software Analyst </strong>, Jul 2022 - Present</h5>
-            <div class="project project__one">
-              <p class="project-title">Project 1 - Guest Mobility</p>
-              <ul>
-                <li>Guest Mobility is a progressive web application (PWA) designed to streamline the check-in and checkout process for hotel guests, providing them with a seamless and convenient experience</li>
-                <li>I played a significant role in the front-end development by building a responsive application that supports both desktop and tablet devices.</li>
-                <li>I successfully managed the migration process from Vue 2 to Vue 3, ensuring a smooth transition and updating the necessary components, dependencies, and codebase to leverage the latest features and improvements offered by Vue 3</li>
-                <li>I was responsible for overseeing the release and deployment process, ensuring that web applications were properly packaged and deployed to the appropriate environments</li>
-              </ul>
-              <div class="tech-stack">
-                <p>Tech Stack:
-                  <span>Vue Js</span>,
-                  <span>VueX</span>,
-                  <span>Quasar</span>,
-                  <span>Lodash</span>
-                </p>
+            <div class="projects">
+              <div class="project project__one">
+                <p class="project-title">Project 1 - Guest Mobility</p>
+                <ul>
+                  <li>Guest Mobility is a progressive web application (PWA) designed to streamline the check-in and checkout process for hotel guests, providing them with a seamless and convenient experience</li>
+                  <li>I played a significant role in the front-end development by building a responsive application that supports both desktop and tablet devices.</li>
+                  <li>I successfully managed the migration process from Vue 2 to Vue 3, ensuring a smooth transition and updating the necessary components, dependencies, and codebase to leverage the latest features and improvements offered by Vue 3</li>
+                  <li>I was responsible for overseeing the release and deployment process, ensuring that web applications were properly packaged and deployed to the appropriate environments</li>
+                </ul>
+                <div class="tech-stack">
+                  <p>Tech Stack:
+                    <span>Vue Js</span>,
+                    <span>VueX</span>,
+                    <span>Quasar</span>,
+                    <span>Lodash</span>,
+                    <span>Azure</span>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="project project__two">
-              <p class="project-title">Project 2 - HouseKeeping Mobility</p>
-              <ul>
-                <li>Housekeeping Mobility is a mobile application designed specifically for hotel staff, enabling them to efficiently manage their tasks and access a comprehensive list of services assigned to each room</li>
-                <li>Similarly to Guest Mobility, I have also done significant role like building responsive app, migration, deployment and release process</li>
-              </ul>
-              <div class="tech-stack">
-                <p>Tech Stack:
-                  <span>Vue Js</span>,
-                  <span>VueX</span>,
-                  <span>Quasar</span>,
-                  <span>Lodash</span>
-                </p>
+              <div class="project project__two">
+                <p class="project-title">Project 2 - HouseKeeping Mobility</p>
+                <ul>
+                  <li>Housekeeping Mobility is a mobile application designed specifically for hotel staff, enabling them to efficiently manage their tasks and access a comprehensive list of services assigned to each room</li>
+                  <li>Similarly to Guest Mobility, I have also done significant role like building responsive app, migration, deployment and release process</li>
+                </ul>
+                <div class="tech-stack">
+                  <p>Tech Stack:
+                    <span>Vue Js</span>,
+                    <span>VueX</span>,
+                    <span>Quasar</span>,
+                    <span>Lodash</span>,
+                    <span>Azure</span>
+                  </p>
+                </div>
               </div>
             </div>
             <h5><strong>Associate Software Analyst </strong>, Jun 2021 - Jul 2022</h5>
@@ -98,7 +118,8 @@
                   <span>Jenkins</span>,
                   <span>GraphQl</span>,
                   <span>Reac Js</span>,
-                  <span>Bit Bucket</span>
+                  <span>Bit Bucket</span>,
+                  <span>GitHub</span>
                 </p>
               </div>
             </div>
@@ -124,13 +145,25 @@
         </div>
       </div>
     </section>
-    <section class="contact">
-      <h5 class="title">Contact me</h5>
-      <div class="contact__details">
-        <p>Phone:+91 9940147538 </p>
-        <p>Email: manikandan.tms88@gmail.com</p>
-        <p>GitHub: https://github.com/mani-1 </p>
-        <p>LinkedIn: https://www.linkedin.com/in/mani-t-448141203/ </p>
+    <section class="rewards">
+      <h5 class="title"><i class="fa-solid fa-trophy" style="color: orange;"></i>Rewards and recognition</h5>
+      <div class="rewards_details">
+        <p>
+          <i class="fa-sharp fa-solid fa-star" style="color: orange;"></i>
+          Extra Mile Awards X3
+        </p>
+        <p>
+          <i class="fa-sharp fa-solid fa-star" style="color: orange;"></i>
+          Spot Light Awards
+        </p>
+        <p>
+          <i class="fa-sharp fa-solid fa-star" style="color: orange;"></i>
+          Weekly Star Performer
+        </p>
+        <p>
+          <i class="fa-sharp fa-solid fa-star" style="color: orange;"></i>
+          Agilysys Badminton League Champion
+        </p>
       </div>
     </section>
   </div>

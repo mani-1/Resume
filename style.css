@@ -11,7 +11,10 @@ body {
   background-color: #8BC6EC;
   background-image: linear-gradient(135deg, #ffff 0%, #ffff 100%);
   padding: 20px 50px 20px 50px;
+  overflow-x: hidden;
 }
+
+
 
 
 /********************* Profile section ******************************/
@@ -27,6 +30,10 @@ body {
   color: white;
   background-color: black;
   padding: 10px;
+}
+
+.title i {
+  margin-right: 10px;
 }
 
  h5.title {
@@ -66,11 +73,30 @@ h5.title::after{
 .profile__details {
   padding: 1rem;
   font-size: .9rem;
+  display: flex;
+}
+
+.phone {
+  flex-basis: 350px;
 }
 
 
 .profile__details p {
   margin: 3px;
+}
+
+.profile__details strong {
+  margin-left: 5px;
+}
+
+
+/***************************** Education ****************** */
+
+
+
+.education__details p {
+  font-size: 14px;
+  padding: 1rem;
 }
 
 
@@ -105,7 +131,14 @@ h5.title::after{
   font-weight: 100;
 }
 
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
 .project {
+  flex-basis: 50%;
+  padding: 10px;
   margin: 6px 0px;
 }
 
@@ -117,15 +150,24 @@ h5.title::after{
   margin-top: 10px;
 }
 
-.tech-stack span{
-  background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.tech-stack {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-weight: 600;
 }
 
+.tech-stack span{
+  color: blue;
+}
 
-.contact__details {
-  padding-left:1rem;
-  font-size: 14px;
-  margin-top: 10px;
+.rewards_details {
+  padding: 10px 2rem;
+  margin: 1rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: .9rem;
+}
+
+.rewards_details i {
+  margin-right: 2px;
 }
